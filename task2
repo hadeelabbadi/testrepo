@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Button Click Example Task2</title>
+</head>
+<body>
+  <button id="myButton">Click me</button>
+
+  <script>
+    const button = document.getElementById("myButton");
+
+    button.addEventListener("click", function() {
+      console.log("Hello World");
+    });
+  </script>
+</body>
+</html>
